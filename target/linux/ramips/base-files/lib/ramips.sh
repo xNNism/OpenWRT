@@ -412,6 +412,9 @@ ramips_board_detect() {
 	*"PX-4885 (8M)")
 		name="px-4885-8M"
 		;;
+	*"Q500-MT7628AN")
+		name="q500-mt7628an"
+		;;
 	*"Q7")
 		name="zte-q7"
 		;;

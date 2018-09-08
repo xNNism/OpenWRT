@@ -150,6 +150,14 @@ define Device/pbr-d1
 endef
 TARGET_DEVICES += pbr-d1
 
+define Device/q500-mt7628an
+  DTS := Q500-MT7628AN
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := Q500-MT7628AN
+  DEVICE_PACKAGES:= kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += q500-mt7628an
+
 define Device/tplink_tl-wa801nd-v5
   $(Device/tplink)
   DTS := TL-WA801NDV5

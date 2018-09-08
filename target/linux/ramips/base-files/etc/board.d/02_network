@@ -111,6 +111,7 @@ ramips_setup_interfaces()
 	pbr-m1|\
 	psg1208|\
 	psg1218a|\
+	q500-mt7628an|\
 	r6220|\
 	rt-n12p|\
 	sap-g3200u3|\
